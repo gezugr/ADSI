@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="512" viewBox="0 0 900 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c62413;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #dc6802;
+      }
+
+      .cls-3 {
+        fill: #1356c6;
+      }
+
+      .cls-4 {
+        fill: #8913c6;
+      }
+
+      .cls-5 {
+        fill: #c61396;
+      }
+
+      .cls-6 {
+        fill: #2a78f9;
+      }
+
+      .cls-7 {
+        font-size: 147.571px;
+        fill: #0a3c60;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: "Agency FB";
+      }
+
+      .cls-8 {
+        font-size: 60px;
+        fill: #414248;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path id="Polígono_10" data-name="Polígono 10" class="cls-1" d="M245,212l-30,2a108.948,108.948,0,0,0-6-17,77.2,77.2,0,0,0-8-13,97.738,97.738,0,0,1,16-5,65.815,65.815,0,0,1,15-1.094A131.879,131.879,0,0,1,239,193C242.433,202,245,212,245,212Z"/>
+  <path id="Polígono_10-2" data-name="Polígono 10" class="cls-2" d="M292,217l-36-6-13-35a123.919,123.919,0,0,1,21-1,82.876,82.876,0,0,1,17,3Z"/>
+  <path id="Polígono_10-3" data-name="Polígono 10" class="cls-3" d="M385,219s-0.894,8.659-2,17a99.842,99.842,0,0,1-6,22l-20-21-4-40Z"/>
+  <path id="Polígono_10-4" data-name="Polígono 10" class="cls-3" d="M388,192l-33-22-22-47,39,16a83.061,83.061,0,0,1,10,18C388.134,171.777,388,192,388,192Z"/>
+  <path id="Polígono_10-5" data-name="Polígono 10" class="cls-4" d="M336,176l-42-14-23-39h39a172.426,172.426,0,0,1,14,23A250.436,250.436,0,0,1,336,176Z"/>
+  <path id="Polígono_10-6" data-name="Polígono 10" class="cls-2" d="M279,164l-40-2-29-34,43-4Z"/>
+  <path id="Polígono_10-7" data-name="Polígono 10" class="cls-1" d="M229,171l-31,4-25-28,25-9Z"/>
+  <path id="Polígono_10-8" data-name="Polígono 10" class="cls-5" d="M189,179l-28,11-22-26,24-11Z"/>
+  <path id="Polígono_10-9" data-name="Polígono 10" class="cls-6" d="M151,195l-20,14-14-21a41.134,41.134,0,0,1,5-12,58.03,58.03,0,0,1,9-10Z"/>
+  <path id="Polígono_10-10" data-name="Polígono 10" class="cls-3" d="M246,114l-39,6L185,98l22-16a126.6,126.6,0,0,1,18,12A235.6,235.6,0,0,1,246,114Z"/>
+  <path id="Polígono_10-11" data-name="Polígono 10" class="cls-6" d="M124,213l-17,14,1-17a50.407,50.407,0,0,1,2-9,60.782,60.782,0,0,1,4-9Z"/>
+  <path id="Polígono_10-12" data-name="Polígono 10" class="cls-3" d="M310,110l-42-1L233,71l30-5a152.408,152.408,0,0,1,26,16C302.9,92.959,310,110,310,110Z"/>
+  <path id="Polígono_10-13" data-name="Polígono 10" class="cls-3" d="M191,129l-27,10-10-11,16-17Z"/>
+  <path id="Polígono_11" data-name="Polígono 11" class="cls-3" d="M160,148l-25.746,11.961s5.156-9.639,8.635-16.145L146,138Z"/>
+  <path id="Polígono_10-14" data-name="Polígono 10" class="cls-3" d="M377,121l-45-13a57.7,57.7,0,0,0-13.754-23.3A279,279,0,0,1,299,62s26.479,10.478,47,26C364.359,101.887,377,121,377,121Z"/>
+  <path id="Polígono_10-15" data-name="Polígono 10" class="cls-4" d="M342,233l-38-17-8-37a140.364,140.364,0,0,1,22,4,90.941,90.941,0,0,1,17,7Z"/>
+  <path id="Polígono_3" data-name="Polígono 3" class="cls-3" d="M200,414s-8.478-1.467-15-5a30.32,30.32,0,0,1-9-8l32-20s40,1,39,0S200,414,200,414Z"/>
+  <path id="Polígono_4" data-name="Polígono 4" class="cls-2" d="M146.517,375.176A45.812,45.812,0,0,1,136,365a61.451,61.451,0,0,1-7-14s13.5-15.637,31-26c20.292-12.015,43-18,43-18s-3.337,19.887-20,40C173.667,358.265,146.517,375.176,146.517,375.176Z"/>
+  <path id="Polígono_5" data-name="Polígono 5" class="cls-1" d="M170,280s-1.842,20.762-14,39c-9.514,14.271-30,27-30,27a40.988,40.988,0,0,1-8-12c-2.9-6.762-4-16-4-16Z"/>
+  <path id="Polígono_6" data-name="Polígono 6" class="cls-5" d="M134,258s-0.378,19.543-6,34c-4.815,12.382-15,20-15,20a46.89,46.89,0,0,1-6-14c-1.883-7.747-1.728-17.791-1.728-17.791Z"/>
+  <path id="Polígono_7" data-name="Polígono 7" class="cls-6" d="M133,247l-26.732,25.483S103.824,268.6,103,261c-0.237-2.183-1.364-6.669-1-9,1.941-12.427,4-18,4-18s19-14,20-15c0.514-.514,4.339,6.679,6,14A52.735,52.735,0,0,1,133,247Z"/>
+  <path id="Polígono_10-16" data-name="Polígono 10" class="cls-4" d="M271,351l-19,24-43,2,25-32a130.831,130.831,0,0,1,20,2C262.387,348.631,271,351,271,351Z"/>
+  <path id="Polígono_8" data-name="Polígono 8" class="cls-3" d="M282,390s-11.456,12.356-22,20a94.887,94.887,0,0,1-17,10l-37-4,46.264-34.8Z"/>
+  <path id="Polígono_9" data-name="Polígono 9" class="cls-3" d="M303,402a143.625,143.625,0,0,1-18,8c-11.26,4.021-24,7-24,7l27-23Z"/>
+  <path id="Polígono_10-17" data-name="Polígono 10" class="cls-2" d="M248,303l-16,34-39,9,21-42Z"/>
+  <path id="Polígono_10-18" data-name="Polígono 10" class="cls-1" d="M212,264a144.265,144.265,0,0,1-2,18,123.411,123.411,0,0,1-4,15l-41,17s6.948-14.28,8-19c2.307-10.353,5-19,5-19Z"/>
+  <path id="Polígono_10-19" data-name="Polígono 10" class="cls-1" d="M256,264l-6,31-36,1,6-32h36Z"/>
+  <path id="Polígono_10-20" data-name="Polígono 10" class="cls-2" d="M294,275l-4,30-34-9,5-31Z"/>
+  <path id="Polígono_10-21" data-name="Polígono 10" class="cls-4" d="M302,364l-15,22-29-9,19-23a107.169,107.169,0,0,1,13,3A36.516,36.516,0,0,1,302,364Z"/>
+  <path id="Polígono_10-22" data-name="Polígono 10" class="cls-4" d="M321,329l-1.936,4.011C315.221,340.97,307,358,307,358l-28-11,15-35Z"/>
+  <path id="Polígono_10-23" data-name="Polígono 10" class="cls-3" d="M323,380l-14,18-15-8,15-21Z"/>
+  <path id="Polígono_10-24" data-name="Polígono 10" class="cls-3" d="M344,351l-15,22-15-12,14-25Z"/>
+  <path id="Polígono_10-25" data-name="Polígono 10" class="cls-4" d="M332,296l-8,26-28-13,5-34Z"/>
+  <path id="Polígono_10-26" data-name="Polígono 10" class="cls-3" d="M358,319a84.894,84.894,0,0,1-4,13,66.871,66.871,0,0,1-6,11l-17-16,8-26Z"/>
+  <path id="Polígono_10-27" data-name="Polígono 10" class="cls-5" d="M207,222l7,36-36,8s2.248-10.559,2-19a45.542,45.542,0,0,0-3-15Z"/>
+  <path id="Polígono_10-28" data-name="Polígono 10" class="cls-1" d="M247,221a92.6,92.6,0,0,1,4,16,124.809,124.809,0,0,1,1,19l-32,1a133.153,133.153,0,0,0-1-19c-1.219-9.024-2-18-2-18Z"/>
+  <path id="Polígono_10-29" data-name="Polígono 10" class="cls-2" d="M295,228v39l-34-11-5-35Z"/>
+  <path id="Polígono_10-30" data-name="Polígono 10" class="cls-4" d="M337,248l-4,38-29-18-2-36Z"/>
+  <path id="Polígono_10-31" data-name="Polígono 10" class="cls-3" d="M373,273a73.322,73.322,0,0,1-3,16,137.027,137.027,0,0,1-8,19l-17-17,5-36Z"/>
+  <path id="Polígono_10-32" data-name="Polígono 10" class="cls-6" d="M168,228l-28,15a52.575,52.575,0,0,0-1-14,59.414,59.414,0,0,0-5-13l21-15a61.712,61.712,0,0,1,8,12A72.254,72.254,0,0,1,168,228Z"/>
+  <path id="Polígono_10-33" data-name="Polígono 10" class="cls-5" d="M206,215l-29.908,9.181A56.183,56.183,0,0,0,173,210a50.931,50.931,0,0,0-7-12l28-14Z"/>
+  <path id="Polígono_10-34" data-name="Polígono 10" class="cls-5" d="M167,236a42.629,42.629,0,0,1,3,14c0.5,8.453-1,20-1,20a114.088,114.088,0,0,0-15,9c-9.743,6.933-16,11-16,11a76.174,76.174,0,0,0,4-18,92.368,92.368,0,0,0-1-20Z"/>
+  <path id="Polígono_10-35" data-name="Polígono 10" class="cls-2" d="M288,310l-13,31-17.889-1.988L239,337l18-35Z"/>
+  <path id="Polígono_4-2" data-name="Polígono 4" class="cls-4" d="M168,397a63.949,63.949,0,0,1-11-8,52.241,52.241,0,0,1-8-10s16.5-10.637,34-21c20.292-12.015,43-13,43-13s-2.337,7.887-19,28C197.667,384.265,168,397,168,397Z"/>
+  <text id="DACTIC" class="cls-7" transform="translate(432 280.069) scale(1.016)">DACTIC</text>
+  <text id="Access_Control" data-name="Access Control" class="cls-8" x="444" y="343.348">Access Control</text>
+</svg>

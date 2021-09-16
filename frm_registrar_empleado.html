@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dactic - Formulario Crear Empleado</title>
+    <link rel="stylesheet" href="estilos.css"
+</head>
+<body>
+    <header id="header">
+        <div class="container_header">
+            <div class="logo">
+                <img src="images/logoDactic.svg" alt="LogoEmpresa">
+            </div>
+            <div class="container_nav">
+                <nav>
+                    <ul>
+                        <li><a href="#"class="select">Cerrar Sesión</a></li>            
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="titlee">
+            <h1>Bienvenido al sistema de control y registro</h1>
+        </div>
+    </header>
+
+    <section>
+            <form class="form1" name="formulario_empleado">
+            <h1>Registrar Empleado</h1>
+            <div class="container_inputs">
+                <label class="controls"for="txtNombre">Nombres</label>
+                <label class="controls" for="txtApell">Apellidos</label>
+                <input class="controls" type="text" name="txtNombre" required > 
+                <input class="controls" type="text" name="txtApell" required>
+                <label class="controls" for="txtId">Documento Id</label>
+                <label class="controls" for="txtEmail">Email</label>
+                <input class="controls" type="text" name="txtId" required>
+                <input class="controls" type="email" name="txtEmail"/>
+                <label class="controls" for="txtTel">Teléfono</label>
+                <label class="controls" for="txtDir">Dirección</label>
+                <input class="controls" type="text" name="txtTel">
+                <input class="controls" type="text" name="txtDir">
+                <label for="txtCargo">Cargo</label>
+                <label class="controls" for="txtDependencia">Dependencia</label>
+                <input class="controls" type="text" name="txtCargo" required> 
+                <select class="controls" name="txtDependencia" id="">
+                    <option value="Tesor">Tesorería</option>
+                    <option value="Mante">Mantenimiento</option>
+                </select>
+                <label class="controls" for="">Estado</label>
+                <label class="controls" for="">Huella Dactilar </label>
+                <select class="controls" name="txtEstado" id="">
+                    <option value="Activo">Activo</option>
+                    <option value="Inactivo">Inactivo</option>
+                </select>
+                <input class="controls" type="file" name="imagen" value=""><br/>
+
+                <input class="btn" type="button" value="Registrar"> <input  class="btn" type="reset" value="Cancelar">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

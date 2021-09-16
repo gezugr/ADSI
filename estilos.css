@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    position:fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    transition: all 300ms;
+}
+
+.container_header{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+header .logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    margin-top: auto;
+    width: 250px;
+}
+
+.container_nav{
+    position: relative;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0px 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #373737;
+    font-size: 14px;
+}
+
+.select{
+    background: #359ef9;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+.nav_mod{
+    height: 70px;
+    box-shadow: 1px 1px 10px 0px #00000010;
+    background: white;
+}
+
+.cover{
+    width: 100%;
+    padding-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+}
+
+.container_cover{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    background-image: url(images/background-cover.svg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.cover .container_info{
+    max-width: 400px;
+    margin-top: 40px;
+    z-index: 2;
+}
+
+.cover h1{
+    max-width: 600px;
+    font-size: 55px;
+    font-weight: 900;
+    color: #373737;
+}
+
+.cover h2{
+    font-size: 60px;
+    font-weight: 900;
+    color: #2a1975;
+    margin-top: -30px;
+}
+
+.cover p{
+    margin-top: 10px;
+    color: #373737;
+    text-align: justify;
+}
+
+.cover input[type="button"]{
+    padding: 10px 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background: #2a1975;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+}
+
+.cover input[type="button"]:hover{
+    box-shadow: 1px 1px 30px -5px #20202085;
+}
+
+.container_vector{
+    position: relative;
+}
+
+.container_vector img{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 600px;
+    animation: move_vector 6s ease-in-out infinite;
+}
+
+@keyframes move_vector {
+    0%{
+        transform: translateY(10px);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
+/*Contenedor de los artículos*/
+
+.container_content{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px 20px;
+    justify-content: center;
+}
+
+article{
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 40px;
+    box-shadow: -10px 0 20px -30px black;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+article h1{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+article p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3c3c3c;
+    text-align: justify;
+    font-family: 'Optima', sans-serif;
+}
+
+article img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*aside artículos */
+
+.container_aside aside{
+    width: 320px;
+    box-shadow: 0 0 20px -20px black;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.container_aside aside img{
+    width: 100%;
+}
+
+.container_aside aside h2, .container_aside aside p{
+    margin-top: 20px;
+    padding: 0px 20px;
+    font-family: 'Optima', sans-serif;
+    text-align: justify;
+}
+
+.container_aside aside button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #2a1975;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container_aside aside button:hover{
+    opacity: 0.9;
+}
+
+
+/*Tarjetas de producto*/
+
+section h2{
+    padding: 35px;
+    max-width: 1200px;
+    height: 100px;
+    font-family: 'Optima', sans-serif;
+    font-size: 30px;
+    background: #2a1975;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container_cards{
+    width: 120%;
+    max-width: 1200px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #2a1975;
+}
+
+.container_cards .card{
+    width: 330px;
+    height: 600;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin:20px;
+    text-align: center;
+    transition: all 0.25s;
+    background: white;
+}
+
+.container_cards .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+.container_cards .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container_cards .card h2{
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Roboro', sans-serif;
+}
+.container_cards .card p{
+    margin-top: 10px;
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.container_cards .card button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #359ef9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/*-------Footer-----*/
+
+footer{
+    width: 100%;
+    background-image: url(images/control-de-acces.jpg);
+    
+}
+
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.contact{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.box_footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box_footer a{
+    margin-top: 0px;
+    color: #363535;
+    font-weight: 800;
+}
+
+.box_footer p{
+    margin-top: 0px;
+    color: #363535;
+    font-weight: 300;
+}
+
+.box_footer a:hover{
+    opacity: 0.8;
+}
+
+.box_footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+/*formulario registrar empleado*/
+
+.titlee{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form1 {
+    width: 80%;
+    max-width: 900px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+
+.container_inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.form1 h1{
+    text-align: center;
+}
+
+._48{
+    width: 48%;
+}
+
+.controls{
+    width: 48%;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #5e6164;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container_head{
+    max-width: 1200px;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+/*Iniciar Sesión*/
+
+.content_body{
+    margin: 0;
+    padding: 0;
+    background: url(images/bg.jpeg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+
+.login-box {
+    width: 400px;
+    height: 500px;
+    background: #fcfdfd;
+    color: rgb(7, 7, 7);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 8px;
+}
+
+.login-box .logo {
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    position: relative;
+    margin-top: -70px;
+}
+
+.login-box h1 {
+    margin-top: -20px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(7, 7, 7);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(5, 5, 5);
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #5107ff;
+    color: rgb(250, 248, 248);
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.login-box a:hover {
+    color: #fff;
+}
